@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "spring-security-demo-1e56f": {
+      "hosting": {
+        "app": [
+          "spring-security-demo-1e56f"
+        ]
+      }
+    }
+  }
+}

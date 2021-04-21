@@ -1,0 +1,23 @@
+<form [formGroup]="form" (ngSubmit)="create( $event )" >
+
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Username</ion-label>
+
+      <ion-input formControlName="username" type="text" placeholder="Username"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+
+      <ion-input formControlName="password" type="password" placeholder="Password"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-buttons slot="primary">
+    <ion-button type="submit" color="primary" >
+      <ion-icon slot="start" name="checkmark-outline"></ion-icon>
+      Confirmar
+    </ion-button>
+  </ion-buttons>
+
+</form>
